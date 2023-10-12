@@ -50,6 +50,10 @@ h6 {
   transition: all 0.4s;
 }
 
+.top-large {
+  margin-top: 150px;
+}
+
 .back-to-top i {
   font-size: 28px;
   color: #fff;
@@ -116,11 +120,12 @@ h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: #f6f7ff;
+  background: white;
   border-bottom: 2px solid #eceefe;
   transition: all 0.5s;
   z-index: 997;
   padding: 15px 0;
+  margin-bottom: 20px;
 }
 
 #header .logo {
@@ -138,7 +143,7 @@ h6 {
 }
 
 #header .logo img {
-  max-height: 40px;
+  max-height: 150px;
 }
 
 /*--------------------------------------------------------------
@@ -465,7 +470,8 @@ h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  margin-top: 240px;
+  padding: 80px 0;
   overflow: hidden;
 }
 
@@ -628,6 +634,10 @@ section {
   font-size: 20px;
   padding-right: 4px;
   color: #3b4ef8;
+}
+
+.features .content {
+  font-size: x-large;
 }
 
 .features .content p:last-child {
